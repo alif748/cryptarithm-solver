@@ -116,7 +116,7 @@ async function go() {
             tableContainer.appendChild(table)
             document.querySelector('#time').innerHTML = `
             <p class='my-10'>
-                Execution time: ${data.execution_time} second
+                Execution time: ${data.execution_time}
             </p>
             `
 
