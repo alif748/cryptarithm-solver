@@ -1,4 +1,5 @@
-const url = 'http://localhost:5009/cryptarithm'
+// const url = 'http://localhost:5009/cryptarithm'
+const url = 'https://api3.alifm.net/cryptarithm'
 
 function addVariable() {
     const inputPlace = document.querySelector('#input-place')
