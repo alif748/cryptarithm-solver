@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .title{
+        font-family: 'Oooh Baby', cursive;
+    }
+}

@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "watch": "npx tailwindcss -i ./tailwind.css -o ./public/assets/tailwind/output.css --watch",
+    "vercel": "npm install date-fns --save && npx tailwindcss -i ./tailwind.css -o ./public/assets/tailwind/output.css"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  }
+}
