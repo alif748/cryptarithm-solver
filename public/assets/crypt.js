@@ -158,6 +158,8 @@ function btnLoading() {
     document.querySelector('#result').classList.remove('mt-48')
     document.querySelector('#result2').innerHTML = ''
     document.querySelector('#result2').classList.remove('mt-48')
+    document.querySelector('#time').innerHTML = ''
+    document.querySelector('#time').classList.remove('mt-48')
 }
 
 function btnLoaded(stat) {
